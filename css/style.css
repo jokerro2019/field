@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "JF-Flat";
+    src: url("../font/JF-Flat-regular.eot"),
+         url("../font/JF-Flat-regular.woff") format("woff");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6704b;
+}
+
+.form {
+    padding: 50px 0;
+    width: 400px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.form__field,
+.form__btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.form__btn {
+    background-color: aqua;
+}
+
+.error {
+    border: 3px solid red;
+}
+
+.passed {
+    border: 3px solid green
+}
